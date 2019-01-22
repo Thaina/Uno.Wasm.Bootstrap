@@ -51,7 +51,7 @@ See below the instructions on how to install the **Windows Subsystem for Linux**
 * The output of the `Console.WriteLine` will appear in the javascript debugging console
 
 ### Upgrading from previous versions of the Uno.Wasm.Bootstrap package
-Previously, the suggested project structure was a .NET Standard 2.0 project using the non-web projects SDK. To emable debugging and easier deployment, the support for `Microsoft.NET.Sdk.Web` has been added.
+Previously, the suggested project structure was a .NET Standard 2.0 project using the non-web projects SDK. To enable debugging and easier deployment, the support for `Microsoft.NET.Sdk.Web` has been added.
 
 To upgrade a project:
 - Change `Microsoft.NET.Sdk` to `Microsoft.NET.Sdk.Web` in the Sdk attribute of your project
